@@ -170,7 +170,6 @@ def menu():
     elif method == '00' or method == '0':
         os.system('rm -f login.txt')
         print'[!] Berhasil Menghapus Token'
-        token = open('login.txt', 'r')
         menu()
     else:
         exit('[!] Pilih Yang Benar!')
@@ -293,7 +292,7 @@ def pilih_menubapi():
     elif ask == '00' or ask == '0':
         os.system('rm -f login.txt')
         print'[!] Berhasil Menghapus Token'
-        exit()
+        menu()
     else:
         print'[!] Pilih Yang Benar!'
         exit()
@@ -534,7 +533,7 @@ def pilih_menumbasic():
     elif ask == '0' or ask == '00':
         os.system('rm -f login.txt')
         print'[!] Berhasil Menghapus Token'
-        exit()
+        menu()
     else:
         print'[!] Pilih Yang Benar!'
         exit()
