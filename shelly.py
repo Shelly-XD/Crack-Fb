@@ -296,6 +296,7 @@ def pilih_menubapi():
     else:
         print'[!] Pilih Yang Benar!'
         exit()
+        print"[!] Ketik [Y] Jika Ingin Menggunakan Pw Manual Ketik [t] Jika Ingin Menggunakan Pw Otomatis"
     ask = raw_input('[?] Ingin Gunakan Password Manual? Y/t : ')
     if ask == 'Y' or ask == 'y':
         manualbapi()
@@ -537,7 +538,7 @@ def pilih_menumbasic():
     else:
         print'[!] Pilih Yang Benar!'
         exit()
-       print'[!] Keti [Y] Jika Ingin Menggunakan Pw Manual Ketik [t] Jika Ingin Menggunakan Pw Otomatis '
+       print"[!] Ketik [Y] Jika Ingin Menggunakan Pw Manual Ketik [t] Jika Ingin Menggunakan Pw Otomatis"
     ask = raw_input('[?] Ingin Gunakan Password Manual? Y/t : ')
     if ask == 'Y' or ask == 'y':
         manualmbasic()
