@@ -170,7 +170,8 @@ def menu():
     elif method == '00' or method == '0':
         os.system('rm -f login.txt')
         print'[!] Berhasil Menghapus Token'
-        exit()
+        token = open('login.txt', 'r')
+        menu()
     else:
         exit('[!] Pilih Yang Benar!')
         
