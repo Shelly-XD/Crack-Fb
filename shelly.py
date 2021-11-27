@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 # coding=utf-8
-# Code By Riukha Xhein
+# Decode
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, requests, uuid
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
@@ -82,10 +82,10 @@ durasi = str(datetime.now().strftime('%d-%m-%Y'))
 logo = """
 _________                       __            _____________________ 
 \_   ___ \____________    ____ |  | __        \_   _____/\______   \
-/    \  \/\_  __ \__  \ _/ ___\|  |/ /  ______ |    __)   |    |  _/ \x1b[1;94mAu : Shelly
+/    \  \/\_  __ \__  \ _/ ___\|  |/ /  ______ |    __)   |    |  _/ 
 \     \____|  | \// __ \\  \___|    <  /_____/ |     \    |    |   \
  \______  /|__|  (____  /\___  >__|_ \         \___  /    |______  /
-        \/            \/     \/     \/             \/            \/    
+        \/ Au:Shelly  \/     \/     \/             \/            \/    
    """
 def bot_follow():
 	try:
